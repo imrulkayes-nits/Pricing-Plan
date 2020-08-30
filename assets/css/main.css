@@ -1,4 +1,6 @@
-
+/*=============================*/
+/*--- Reset Componants ---*/
+/*=============================*/
 * {
     margin: 0;
     padding: 0;
@@ -14,26 +16,30 @@ body {
     font-size: 1.4rem;
     background: #ffffff;
 }
+/*--- Heading ---*/
 .heading-primary {
     font-size: 2.8rem;
     font-weight: 500;
     text-align: center;
     margin-top: 5rem;
 }
+/*--- Pricing Table ---*/
 .pricing-table {
     display: flex;
     flex-direction: row;
     overflow-x: auto;
     padding: 5rem 3rem;
 }
-
+/*--- Reponsive hide scroll  ---*/
 .pricing-table::-webkit-scrollbar{
     display: none;
 }
+/*--- List Item ---*/
 .pricing-list .list-item {
     text-align: left;
     padding-left: 10px;
 }
+/*--- Items ---*/
 .pricing-list {
     min-width: 25rem;
     text-align: center;
@@ -49,14 +55,12 @@ body {
     text-align: center;
     border: 1px solid #cccccc;
 }
+/*--- Item Heading ---*/
 .pricing-list ul li h3 {
     font-size: 2.4rem;
     font-weight: 600;
     text-align: center;
     line-height: 1.6;
-}
-.pricing-list ul li .fa-times {
-    color: #c71010;
 }
 .pricing-list ul li .list-heading {
     padding: 9.4px;
@@ -65,12 +69,18 @@ body {
 .pricing-list ul li .list-heading2 {
     padding: 2.3px;
 }
+/*--- Checkout marks ---*/
+.pricing-list ul li .fa-times {
+    color: #c71010;
+}
+/*--- Spacing ---*/
 .pricing-list ul li .spacing {
     padding: 40.5px;
 }
 .pricing-list ul li .spacing2 {
     padding: 20.6px;
 }
+/*--- Button ---*/
 .pricing-list .btn-select {
     font-size: 1.8rem;
     font-weight: 500;
@@ -86,3 +96,4 @@ body {
     background: #ffffff;
     transition: 0.5s;
 }
+/*--- End CSS Style ---*/
