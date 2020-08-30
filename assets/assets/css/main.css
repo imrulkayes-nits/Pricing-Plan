@@ -1,0 +1,116 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    background: #ffffff;
+  
+}
+.headeing-primary {
+    font-size: 2.8rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 5rem;
+}
+.plan-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    justify-items: center;
+    padding: 5rem 3rem;
+}
+.plan-section .basic-plan {
+    width: 20%;
+    text-align: center;
+}
+.colam-color {
+    color: #ffffff;
+    background: linear-gradient(#4346e1, #404186);
+}
+.plan-heading {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.plan-heading1 {
+    background: #4042bf;
+    padding: 0.8rem 5rem 0.8rem 0.8rem;
+    color: #ffffff;
+    text-align: left;
+    font-weight: 500;
+    display: block;
+}
+.plan-features {
+    text-align: center;
+    margin-top: 1rem;
+}
+.plan-features .plan-item {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 2.6;
+    text-align: left;
+    padding-left: .8rem;
+    border: 0.01rem solid #cccccc;
+}
+.plan-item1 {
+    margin-top: 5rem;
+    border: 0.01rem solid #cccccc;
+}
+.items {
+    text-align: center !important;
+}
+.fas {
+    font-size: 1.4rem;
+    line-height: 2.6;
+    
+}
+.plan-check {
+    border: 0.01rem solid #cccccc;
+}
+.check1 {
+    margin-top: 1rem;
+}
+.check2 {
+    margin-top: 6.8rem;
+}
+.basic2 {
+    padding-bottom: 1.6rem;
+}
+.fa-times {
+    color: #eb3913;
+}
+.fa-dollar-sign {
+    font-size:  1.8rem;
+}
+.plan-value {
+    font-size: 2.6rem;
+    font-weight: 500;
+}
+.basic-plan .btn-select {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #ffffff;
+    background: #4346e1;
+    padding: 0.8rem 6rem;
+    border-radius: 1rem;
+    line-height: 5;
+    border: 0.1rem solid #797979;
+   
+ }
+.basic-plan .btn-select:hover {
+    color: #000000;
+    background: #ffffff;
+    transition: 0.5s;
+
+ }
