@@ -10,7 +10,8 @@ html {
 }
 body {
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    /*font-family: 'Poppins', sans-serif;*/
+    font-family: Segoe UI,sans-serif; 
     font-size: 1.4rem;
     background: #ffffff;
 }
@@ -22,44 +23,45 @@ body {
 }
 .plan-section {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     flex-direction: row;
-    justify-items: center;
     padding: 5rem 3rem;
+    overflow-x: auto;
+}
+.plan-section::-webkit-scrollbar{
+    display: none;
 }
 .plan-section .basic-plan {
-    width: 20%;
+    min-width: 23.4rem;
     text-align: center;
 }
 .basic-plan .active {
     color: #ffffff;
     background: linear-gradient(#4346e1, #404186);
 }
-.basic-plan .colam-color:hover {
+/* .basic-plan .colam-color:hover {
     color: #ffffff;
     background: linear-gradient(#4346e1, #404186);
-    transition: 0.5s;
-}
-.plan-heading {
+    transition: 0.3s;
+} */
+.plan-section .basic-plan .plan-heading {
     font-size: 2rem;
     font-weight: 600;
     text-align: center;
-    margin-bottom: 2rem;
 }
-.plan-heading1 {
-    background: #4042bf;
-    padding: 0.8rem 5rem 0.8rem 0.8rem;
-    color: #ffffff;
+.plan-section .basic-plan .plan-heading1 {
+    /*background: #4042bf; */
+    padding: 0.8rem 5rem 3.8rem 0.8rem;
+    color: #000000;
     text-align: left;
     font-weight: 500;
     display: block;
+    border: 0.1rem solid #cccccc;
 }
-.plan-features {
+.plan-section .basic-plan .plan-features {
     text-align: center;
-    margin-top: 1rem;
+    margin-top: 0;
 }
-.plan-features .plan-item {
+.plan-section .basic-plan .plan-features .plan-item {
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 2.6;
@@ -67,29 +69,28 @@ body {
     padding-left: .8rem;
     border: 0.01rem solid #cccccc;
 }
-.plan-item1 {
-    margin-top: 5rem;
+.plan-section .basic-plan .plan-features .plan-item1 {
+  
     border: 0.01rem solid #cccccc;
 }
-.items {
+.plan-section .basic-plan .plan-features .items {
     text-align: center !important;
 }
 .fas {
     font-size: 1.4rem;
     line-height: 2.6;
-    
 }
-.plan-check {
+.plan-section .basic-plan .plan-check {
     border: 0.01rem solid #cccccc;
 }
-.check1 {
-    margin-top: 1rem;
+.plan-section .basic-plan .check1 {
+    margin-top: 0;
 }
-.check2 {
-    margin-top: 6.8rem;
+.plan-section .basic-plan .plan-features .check2 {
+    margin-top: 7.5rem;
 }
-.basic2 {
-    padding-bottom: 1.6rem;
+.basic-plan .basic2 {
+    padding-bottom: 1.9rem;
 }
 .fa-times {
     color: #eb3913;
@@ -110,11 +111,9 @@ body {
     border-radius: 1rem;
     line-height: 5;
     border: 0.1rem solid #797979;
-   
  }
 .basic-plan .btn-select:hover {
     color: #000000;
     background: #ffffff;
     transition: 0.5s;
-
  }
