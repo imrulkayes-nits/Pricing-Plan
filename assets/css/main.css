@@ -56,17 +56,17 @@ body {
     line-height: 1.6;
 }
 .pricing-list ul li .list-heading {
-    padding: 1rem;
-    line-height: 2.7;
+    padding: 9px;
+    line-height: 2.6;
 }
 .pricing-list ul li .list-heading2 {
-    padding: 4px;
+    padding: 2px;
 }
 .pricing-list ul li .spacing {
-    padding: 42px;
+    padding: 40px;
 }
 .pricing-list ul li .spacing2 {
-    padding: 20.5px;
+    padding: 20.6px;
 }
 .pricing-list .btn-select {
     font-size: 1.8rem;
